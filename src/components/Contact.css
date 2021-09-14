@@ -1,0 +1,8 @@
+.Contact {
+  background-color: red;
+  height: 50vh;
+  width: 100%;
+  box-sizing: border-box;
+
+  padding: 0 20px 48px 20px;
+}
