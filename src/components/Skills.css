@@ -1,6 +1,4 @@
 .Skills {
-  background-color: aqua;
-  height: 50vh;
   padding: 0 20px;
 }
 
@@ -13,6 +11,6 @@
 }
 
 img {
-  height: 60px;
-  width: 60px;
+  height: 80px;
+  width: 80px;
 }
