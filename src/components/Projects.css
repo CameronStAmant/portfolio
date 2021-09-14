@@ -1,0 +1,9 @@
+.projects {
+  display: grid;
+  padding: 0 20px;
+}
+
+.projects img {
+  height: auto;
+  width: 100%;
+}
