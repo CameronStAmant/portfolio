@@ -1,8 +1,18 @@
 .Skills {
   background-color: aqua;
   height: 50vh;
+  padding: 0 20px;
+}
+
+#skills {
+  font-size: 2.5em;
 }
 
 .skillType {
-  font-size: 1.2em;
+  font-size: 1.3em;
+}
+
+img {
+  height: 60px;
+  width: 60px;
 }
