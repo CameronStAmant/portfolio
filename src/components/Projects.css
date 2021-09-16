@@ -1,18 +1,26 @@
 .projects {
   display: grid;
-  padding: 0 20px;
   font-family: 'Open Sans', sans-serif;
   font-size: 16px;
 }
 
+.project {
+  padding-bottom: 50px;
+}
+
 .projects img {
   height: auto;
-  width: 100%;
+  width: 100vw;
+  padding: 13px 20px;
+  box-sizing: border-box;
+  background-color: #449399;
 }
 
 #projects {
   font-family: 'Montserrat', sans-serif;
   font-size: 32px;
+  display: flex;
+  padding: 13px 20px;
 }
 
 h2 {
@@ -40,4 +48,15 @@ h2 {
   display: grid;
   grid-auto-flow: column;
   justify-content: space-evenly;
+}
+
+.front {
+  padding: 0 20px;
+}
+
+.projectTitle {
+  color: #ffffff;
+  padding: 13px 20px;
+  margin: 0;
+  background-color: #313c4e;
 }
