@@ -1,9 +1,43 @@
 .projects {
   display: grid;
   padding: 0 20px;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16px;
 }
 
 .projects img {
   height: auto;
   width: 100%;
+}
+
+#projects {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 32px;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 20px;
+}
+
+.code {
+  color: #ffffff;
+  background-color: #449399;
+  height: 43px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.live {
+  color: #449399;
+  background-color: #ffffff;
+  height: 43px;
+  width: auto;
+  border-radius: 12px;
+}
+
+.projectButtons {
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: space-evenly;
 }

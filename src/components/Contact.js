@@ -7,7 +7,7 @@ function Contact() {
       <div id="contact">Contact</div>
       <div>
         <a href="mailto:cameronstamant@protonmail.com?subject=I found your portfolio and I really like what I see">
-          cameronstamant@protonmail.com
+          Email
         </a>
       </div>
       <div>

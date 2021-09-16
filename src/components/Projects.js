@@ -26,7 +26,7 @@ function Projects() {
 
   return (
     <div className="projects">
-      Projects
+      <div id="projects">Projects</div>
       <button onClick={previous}>Previous</button>
       <button onClick={next}>Next</button>
       <div>
@@ -38,6 +38,22 @@ function Projects() {
               Fully featured blog that allows posting, comments, as well as
               moderation from admins.
             </p>
+            <div className="projectButtons">
+              <a
+                href="https://github.com/CameronStAmant/blog-api-client"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="code">See GitHub</button>
+              </a>
+              <a
+                href="https://cameronstamant.github.io/blog-api-client/#/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="live">See Project</button>
+              </a>
+            </div>
           </div>
         )}
         {gallery === 2 && (
@@ -45,6 +61,22 @@ function Projects() {
             <h2>Battleship</h2>
             <img src={battleshipScreenshot} alt="Screenshot of battleship" />
             <p>The game of battleship that you can take on the go!</p>
+            <div className="projectButtons">
+              <a
+                href="https://github.com/CameronStAmant/battleship"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="code">See GitHub</button>
+              </a>
+              <a
+                href="https://cameronstamant.github.io/battleship/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="live">See Project</button>
+              </a>
+            </div>
           </div>
         )}
         {gallery === 3 && (
@@ -57,6 +89,22 @@ function Projects() {
             <p>
               A secret message board where only members know who wrote what.
             </p>
+            <div className="projectButtons">
+              <a
+                href="https://github.com/CameronStAmant/members-only-node"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="code">See GitHub</button>
+              </a>
+              <a
+                href="https://secure-oasis-30404.herokuapp.com/"
+                target="_blank"
+                rel="noreferrer noopener"
+              >
+                <button className="live">See Project</button>
+              </a>
+            </div>
           </div>
         )}
       </div>
