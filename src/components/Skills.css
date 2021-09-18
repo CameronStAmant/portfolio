@@ -30,11 +30,6 @@
     hue-rotate(136deg) brightness(89%) contrast(83%);
 }
 
-#puglogo {
-  filter: invert(57%) sepia(8%) saturate(2426%) hue-rotate(136deg)
-    brightness(89%) contrast(83%);
-}
-
 .skillItem {
   display: grid;
   grid-auto-columns: max-content;
