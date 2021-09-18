@@ -1,0 +1,36 @@
+ul {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  ul {
+    display: flex;
+    justify-content: flex-end;
+    gap: 40px;
+    width: 100%;
+    padding: 20px;
+    margin: 0;
+    float: right;
+  }
+
+  li {
+    font-family: 'Montserrat';
+    font-size: 24px;
+    color: #ffffff;
+    list-style-type: none;
+  }
+
+  ul li a {
+    text-decoration: none;
+    color: #ffffff;
+  }
+
+  ul li a:hover {
+    color: #449399;
+  }
+
+  ul li a:active {
+    text-decoration: underline;
+    color: #449399;
+  }
+}

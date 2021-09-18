@@ -1,13 +1,30 @@
 .About {
   padding: 0 20px;
+  font-family: 'Montserrat';
 }
 
 #about {
-  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
+  font-weight: normal;
+
+  margin: 0 -20px 0 -20px;
+  padding: 55px 20px 5px 20px;
 }
 
 #aboutContent {
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 16px;
+}
+
+#about::before {
+  content: ' ';
+  display: block;
+}
+
+#about a svg {
+  visibility: hidden;
+}
+
+#about:hover a svg {
+  visibility: visible;
 }

@@ -1,19 +1,33 @@
 .Contact {
   width: 100%;
   box-sizing: border-box;
-  padding: 0 20px;
   text-align: center;
+  font-family: 'Montserrat';
+}
+
+#contact::before {
+  content: ' ';
+  display: block;
 }
 
 #contact {
-  font-family: 'Montserrat', sans-serif;
   font-size: 32px;
+  margin: 0 0 -5px 0;
+  font-weight: normal;
+  padding: 55px 20px 0 20px;
+}
+
+#contact a svg {
+  visibility: hidden;
+}
+
+#contact:hover a svg {
+  visibility: visible;
 }
 
 .Contact div {
-  font-family: 'Montserrat', sans-serif;
   font-size: 26px;
-  padding: 10px;
+  padding: 10px 20px;
 }
 
 a {

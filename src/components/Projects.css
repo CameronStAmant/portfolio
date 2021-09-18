@@ -1,62 +1,232 @@
 .projects {
   display: grid;
-  font-family: 'Open Sans', sans-serif;
+  font-family: 'Open Sans';
   font-size: 16px;
 }
 
-.project {
-  padding-bottom: 50px;
+#projectOpening {
+  font-family: 'Montserrat';
+  font-size: 32px;
+  font-weight: normal;
+  padding: 55px 20px 5px 20px;
+}
+
+#projectOpening a svg {
+  visibility: hidden;
+}
+
+#projectOpening:hover a svg {
+  visibility: visible;
+}
+
+#projectOpening::before {
+  content: ' ';
+  display: block;
+}
+
+.projectTitle {
+  font-family: 'Montserrat';
+  margin: 0;
+  padding-left: 20px;
 }
 
 .projects img {
   height: auto;
   width: 100vw;
-  padding: 13px 20px;
+  padding: 0 20px 13px 20px;
   box-sizing: border-box;
-  background-color: #449399;
-}
-
-#projects {
-  font-family: 'Montserrat', sans-serif;
-  font-size: 32px;
-  display: flex;
-  padding: 13px 20px;
-}
-
-h2 {
   font-family: 'Montserrat', sans-serif;
   font-size: 20px;
 }
 
-.code {
+.projectButtons {
+  display: flex;
+  gap: 20px;
+}
+
+.githubLink {
   color: #ffffff;
   background-color: #449399;
   height: 43px;
-  width: auto;
-  border-radius: 12px;
+  width: 176px;
+  border-radius: 22px;
+  border: none;
 }
 
-.live {
+.demoLink {
   color: #449399;
   background-color: #ffffff;
   height: 43px;
-  width: auto;
-  border-radius: 12px;
+  width: 131px;
+  border-radius: 22px;
+  border: 1px solid #449399;
 }
 
-.projectButtons {
+.listProject {
   display: grid;
-  grid-auto-flow: column;
-  justify-content: space-evenly;
 }
 
-.front {
+.projectSummary {
   padding: 0 20px;
 }
 
-.projectTitle {
-  color: #ffffff;
-  padding: 13px 20px;
-  margin: 0;
-  background-color: #313c4e;
+@media screen and (min-width: 320px) and (max-width: 767px) {
+  .projectTitle {
+    background-color: rgba(68, 147, 153, 1);
+    color: #ffffff;
+    padding: 13px 20px;
+  }
+
+  #projectOpening {
+    margin: auto;
+  }
+
+  .projectImage {
+    background: linear-gradient(
+      180deg,
+      rgba(68, 147, 153, 1) 15%,
+      rgba(255, 255, 255, 1) 100%
+    );
+  }
+
+  .projectButtons {
+    padding: 0 20px 29px 20px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .listProject {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    grid-template-rows: 50px repeat(3, auto) 1fr;
+    grid-template-areas:
+      'Image .'
+      'Image Title'
+      'Image Summary'
+      'Image Buttons'
+      'Image .';
+    background: linear-gradient(
+      90deg,
+      rgba(68, 147, 153, 1) 0%,
+      rgba(255, 255, 255, 1) 60%
+    );
+  }
+
+  .projects img {
+    grid-area: Image;
+    padding: 30px 0 30px 40px;
+    max-width: 50vw;
+  }
+
+  .projectTitle {
+    grid-area: Title;
+    padding-bottom: 0;
+    color: black;
+  }
+
+  .projectSummary {
+    margin-top: 0;
+    grid-area: Summary;
+  }
+
+  .projectButtons {
+    grid-area: Buttons;
+    padding: 0 20px;
+  }
+
+  .listProjectFlip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px repeat(3, auto) 1fr;
+    grid-template-areas:
+      '. Image'
+      'Title Image '
+      'Summary Image'
+      'Buttons Image'
+      '. Image ';
+
+    background: linear-gradient(
+      270deg,
+      rgba(68, 147, 153, 1) 0%,
+      rgba(255, 255, 255, 1) 60%
+    );
+  }
+
+  #projectImageFlip {
+    grid-area: Image;
+    padding: 30px 40px 30px 0;
+    max-width: 50vw;
+  }
+
+  #projectOpening {
+    margin: 0;
+  }
+}
+
+@media screen and (min-width: 1025px) {
+  .listProject {
+    grid-template-columns: 1fr 1fr;
+    column-gap: 10px;
+    grid-template-rows: 50px repeat(3, auto) 1fr;
+    grid-template-areas:
+      'Image .'
+      'Image Title'
+      'Image Summary'
+      'Image Buttons'
+      'Image .';
+    background: linear-gradient(
+      90deg,
+      rgba(68, 147, 153, 1) 0%,
+      rgba(255, 255, 255, 1) 60%
+    );
+  }
+
+  .projects img {
+    grid-area: Image;
+    padding: 13px 0 13px 40px;
+    max-width: 50vw;
+  }
+
+  .projectTitle {
+    grid-area: Title;
+    padding-bottom: 0;
+    color: black;
+  }
+
+  .projectSummary {
+    margin-top: 0;
+    grid-area: Summary;
+  }
+
+  .projectButtons {
+    grid-area: Buttons;
+    padding: 0 20px;
+  }
+
+  .listProjectFlip {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50px repeat(3, auto) 1fr;
+    grid-template-areas:
+      '. Image'
+      'Title Image '
+      'Summary Image'
+      'Buttons Image'
+      '. Image ';
+    background: linear-gradient(
+      270deg,
+      rgba(68, 147, 153, 1) 0%,
+      rgba(255, 255, 255, 1) 60%
+    );
+  }
+
+  #projectImageFlip {
+    grid-area: Image;
+    padding: 13px 40px 13px 0;
+    max-width: 50vw;
+  }
+
+  #projectOpening {
+    margin: 0;
+  }
 }

@@ -4,4 +4,11 @@
   width: 100%;
   box-sizing: border-box;
   padding: 48px 20px 0 20px;
+  margin-top: 58px;
+}
+
+@media screen and (min-width: 768px) {
+  .Footer {
+    height: 5vh;
+  }
 }

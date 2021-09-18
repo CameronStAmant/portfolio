@@ -1,33 +1,70 @@
 .Skills {
   padding: 0 20px;
   box-sizing: border-box;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 16px;
+  font-family: 'Open Sans';
+  font-size: 18px;
+  width: 100%;
 }
 
 #skills {
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Montserrat';
   font-size: 32px;
+  margin: 0 -20px 0 -20px;
+  font-weight: normal;
+  padding: 55px 20px 5px 20px;
 }
 
-img {
+#skills a svg {
+  margin: 0;
+  visibility: hidden;
+}
+
+#skills:hover a svg {
+  visibility: visible;
+}
+
+.skillItem img {
   height: 67px;
   width: 67px;
+  filter: brightness(0) saturate(100%) invert(57%) sepia(8%) saturate(2426%)
+    hue-rotate(136deg) brightness(89%) contrast(83%);
+}
+
+#puglogo {
+  filter: invert(57%) sepia(8%) saturate(2426%) hue-rotate(136deg)
+    brightness(89%) contrast(83%);
 }
 
 .skillItem {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  display: grid;
+  grid-auto-columns: max-content;
+  column-gap: 30px;
+  max-width: 100%;
+  row-gap: 10px;
+}
+
+#skills::before {
+  content: ' ';
+  display: block;
+}
+
+.skillTitle {
+  margin: 0 0 5px 0;
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
+  .skillItem {
+    grid-template-columns: repeat(4, 1fr);
+  }
 }
 
 @media screen and (min-width: 768px) {
   #skillList {
     display: grid;
+    gap: 40px;
+  }
+
+  .skillItem {
     grid-auto-flow: column;
-    gap: 50px;
   }
 }
