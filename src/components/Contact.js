@@ -18,7 +18,7 @@ function Contact() {
         </a>
       </div>
       <div>
-        <a href="https://github.com/CameronStAmant">Github</a>
+        <a href="https://github.com/CameronStAmant">GitHub</a>
       </div>
       <div>
         <a href="https://www.linkedin.com/in/cameron-stamant">LinkedIn</a>
