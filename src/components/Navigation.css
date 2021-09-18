@@ -6,16 +6,15 @@ ul {
   ul {
     display: flex;
     justify-content: flex-end;
-    gap: 40px;
-    width: 100%;
-    padding: 20px;
+    gap: 30px;
+    padding-top: 20px;
     margin: 0;
     float: right;
   }
 
   li {
     font-family: 'Montserrat';
-    font-size: 24px;
+    font-size: 16px;
     color: #ffffff;
     list-style-type: none;
   }
@@ -32,5 +31,17 @@ ul {
   ul li a:active {
     text-decoration: underline;
     color: #449399;
+  }
+}
+
+@media screen and (min-width: 824px) {
+  li {
+    font-size: 20px;
+  }
+}
+
+@media screen and (min-width: 924px) {
+  li {
+    font-size: 24px;
   }
 }

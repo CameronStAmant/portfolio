@@ -45,7 +45,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject listProjectFlip">
+        <div className="listProject listProjectFlip spacer">
           <h2 className="projectTitle" id="battleship">
             Battleship
           </h2>
@@ -75,7 +75,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject">
+        <div className="listProject spacer">
           <h2 className="projectTitle" id="members-only-message-board">
             Members Only Message Board
           </h2>

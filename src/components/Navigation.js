@@ -2,7 +2,7 @@ import './Navigation.css';
 
 function Navigation() {
   return (
-    <ul>
+    <ul id="navigation">
       <li>
         <a href="#about">About me</a>
       </li>
