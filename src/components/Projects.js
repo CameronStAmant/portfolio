@@ -14,7 +14,7 @@ function Projects() {
           </svg>
         </a>
       </h3>
-      <div>
+      <div id="projectGallery">
         <div className="listProject">
           <h2 className="projectTitle" id="blogTitle">
             Blog

@@ -35,13 +35,13 @@
   height: 400px;
 }
 
-@media screen and (min-width: 320px) and (max-width: 767px) {
+@media screen and (min-width: 320px) and (max-width: 670px) {
   #profilePicture {
     float: right;
   }
 }
 
-@media screen and (min-width: 654px) {
+@media screen and (min-width: 670px) {
   .Name::before {
     height: 450px;
   }

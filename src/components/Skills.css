@@ -32,6 +32,7 @@
 
 .skillItem {
   display: grid;
+  grid-template-columns: repeat(auto-fit, 67px);
   grid-auto-columns: max-content;
   column-gap: 30px;
   max-width: 100%;
@@ -53,9 +54,6 @@
 }
 
 @media screen and (min-width: 320px) and (max-width: 767px) {
-  .skillItem {
-    grid-template-columns: repeat(4, 1fr);
-  }
 }
 
 @media screen and (min-width: 768px) {

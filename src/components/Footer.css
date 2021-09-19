@@ -1,14 +1,14 @@
-.Footer {
+.Footer::before {
+  content: '';
   background-color: #313c4e;
-  height: 10vh;
-  width: 100%;
-  box-sizing: border-box;
-  padding: 48px 20px 0 20px;
-  margin-top: 58px;
+  position: absolute;
+  height: 50px;
+  width: 200vw;
+  left: -100vw;
+  z-index: -1;
 }
 
-@media screen and (min-width: 768px) {
-  .Footer {
-    height: 5vh;
-  }
+.Footer {
+  box-sizing: border-box;
+  padding: 48px 20px 0 20px;
 }
