@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/static/css/main.1a2f4660.chunk.css",
-    "main.js": "/static/js/main.ad88cd13.chunk.js",
-    "main.js.map": "/static/js/main.ad88cd13.chunk.js.map",
+    "main.css": "/static/css/main.fb3115cf.chunk.css",
+    "main.js": "/static/js/main.bdbfb21d.chunk.js",
+    "main.js.map": "/static/js/main.bdbfb21d.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.d0605945.js",
     "runtime-main.js.map": "/static/js/runtime-main.d0605945.js.map",
     "static/js/2.c4f71e69.chunk.js": "/static/js/2.c4f71e69.chunk.js",
     "static/js/2.c4f71e69.chunk.js.map": "/static/js/2.c4f71e69.chunk.js.map",
     "index.html": "/index.html",
-    "static/css/main.1a2f4660.chunk.css.map": "/static/css/main.1a2f4660.chunk.css.map",
+    "static/css/main.fb3115cf.chunk.css.map": "/static/css/main.fb3115cf.chunk.css.map",
     "static/js/2.c4f71e69.chunk.js.LICENSE.txt": "/static/js/2.c4f71e69.chunk.js.LICENSE.txt",
     "static/media/Cameron-St-Amant-Resume.2af5d5ad.pdf": "/static/media/Cameron-St-Amant-Resume.2af5d5ad.pdf",
-    "static/media/battleship-screenshot.781e0b4c.png": "/static/media/battleship-screenshot.781e0b4c.png",
-    "static/media/blogScreenshot.aaa261a6.png": "/static/media/blogScreenshot.aaa261a6.png",
-    "static/media/members-only-screenshot.39c7aeb1.png": "/static/media/members-only-screenshot.39c7aeb1.png",
+    "static/media/battleship-screenshot.b2d4fd34.png": "/static/media/battleship-screenshot.b2d4fd34.png",
+    "static/media/blogScreenshot.5c14a351.png": "/static/media/blogScreenshot.5c14a351.png",
+    "static/media/members-only-screenshot.9c060b3a.png": "/static/media/members-only-screenshot.9c060b3a.png",
     "static/media/mongoose-logo.9b22c820.webp": "/static/media/mongoose-logo.9b22c820.webp",
     "static/media/profilePicture.4e477704.png": "/static/media/profilePicture.4e477704.png",
     "static/media/pugjsLogo.66b7653a.svg": "/static/media/pugjsLogo.66b7653a.svg"
@@ -21,7 +21,7 @@
   "entrypoints": [
     "static/js/runtime-main.d0605945.js",
     "static/js/2.c4f71e69.chunk.js",
-    "static/css/main.1a2f4660.chunk.css",
-    "static/js/main.ad88cd13.chunk.js"
+    "static/css/main.fb3115cf.chunk.css",
+    "static/js/main.bdbfb21d.chunk.js"
   ]
 }
