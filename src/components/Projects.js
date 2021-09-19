@@ -25,8 +25,10 @@ function Projects() {
             alt="Screenshot of blog"
           />
           <p className="projectSummary">
-            Fully featured blog that allows posting, comments, as well as
-            moderation from admins.
+            A fully featured blog that allows posts, comments, as well as
+            moderation from admins. The backend was built with APIs that deliver
+            content to the two React frontends. Even further behind the scenes
+            we have MongoDB, which houses all of the user and content data.
           </p>
           <div className="projectButtons" id="blogButtons">
             <a
@@ -45,36 +47,6 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject listProjectFlip spacer">
-          <h2 className="projectTitle" id="battleship">
-            Battleship
-          </h2>
-          <img
-            src={battleshipScreenshot}
-            className="projectImage"
-            id="projectImageFlip"
-            alt="Screenshot of battleship"
-          />
-          <p className="projectSummary">
-            The game of battleship that you can take on the go!
-          </p>
-          <div className="projectButtons">
-            <a
-              href="https://github.com/CameronStAmant/battleship"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="githubLink">Review the code</button>
-            </a>
-            <a
-              href="https://cameronstamant.github.io/battleship/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="demoLink">See it live!</button>
-            </a>
-          </div>
-        </div>
         <div className="listProject spacer">
           <h2 className="projectTitle" id="members-only-message-board">
             Members Only Message Board
@@ -85,7 +57,10 @@ function Projects() {
             alt="Screenshot of members only message board"
           />
           <p className="projectSummary">
-            A secret message board where only members know who wrote what.
+            A full stack message board with multiple user roles, complete with
+            conditional rendering to only allow users to see the entire message
+            if they are logged in. Passwords are encrypted with bcryptjs and
+            user input is sanitized and validated using express-validator.
           </p>
           <div className="projectButtons">
             <a
@@ -97,6 +72,38 @@ function Projects() {
             </a>
             <a
               href="https://secure-oasis-30404.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <button className="demoLink">See it live!</button>
+            </a>
+          </div>
+        </div>
+        <div className="listProject listProjectFlip spacer">
+          <h2 className="projectTitle" id="battleship">
+            Battleship
+          </h2>
+          <img
+            src={battleshipScreenshot}
+            className="projectImage"
+            id="projectImageFlip"
+            alt="Screenshot of battleship"
+          />
+          <p className="projectSummary">
+            This game has a responsive design that changes to match the users
+            device size. At the heart it all is the Test Driven Development
+            concept, which was used throughout its creation.
+          </p>
+          <div className="projectButtons">
+            <a
+              href="https://github.com/CameronStAmant/battleship"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <button className="githubLink">Review the code</button>
+            </a>
+            <a
+              href="https://cameronstamant.github.io/battleship/"
               target="_blank"
               rel="noreferrer noopener"
             >
