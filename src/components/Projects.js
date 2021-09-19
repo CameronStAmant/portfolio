@@ -47,13 +47,14 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject spacer">
+        <div className="listProject listProjectFlip spacer">
           <h2 className="projectTitle" id="members-only-message-board">
             Members Only Message Board
           </h2>
           <img
             src={membersOnlyScreenshot}
             className="projectImage"
+            id="projectImageFlip"
             alt="Screenshot of members only message board"
           />
           <p className="projectSummary">
@@ -79,14 +80,13 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject listProjectFlip spacer">
+        <div className="listProject spacer">
           <h2 className="projectTitle" id="battleship">
             Battleship
           </h2>
           <img
             src={battleshipScreenshot}
             className="projectImage"
-            id="projectImageFlip"
             alt="Screenshot of battleship"
           />
           <p className="projectSummary">
