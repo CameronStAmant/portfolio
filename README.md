@@ -4,7 +4,7 @@ My personal portfolio. I include some of my work, the languages I've worked with
 
 ## Link
 
-- https://cameronstamant.com
+- [cameronstamant.com](https://cameronstamant.com)
 
 <p align="center">
     <img src="./READMEScreenshot.png" alt="Cameron St. Amant's Portfolio" />
