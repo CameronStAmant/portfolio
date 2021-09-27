@@ -1,5 +1,5 @@
 import './Projects.css';
-import blogScreenshot from '../assets/blogScreenshot.png';
+import blogScreenshot from '../assets/blogScreenshot.jpg';
 import battleshipScreenshot from '../assets/battleship-screenshot.png';
 import membersOnlyScreenshot from '../assets/members-only-screenshot.png';
 
