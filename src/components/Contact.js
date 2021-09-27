@@ -18,15 +18,15 @@ function Contact() {
         </a>
       </div>
       <div>
+        <a href={resume} download>
+          Resume
+        </a>
+      </div>
+      <div>
         <a href="https://github.com/CameronStAmant">GitHub</a>
       </div>
       <div>
         <a href="https://www.linkedin.com/in/cameron-stamant">LinkedIn</a>
-      </div>
-      <div>
-        <a href={resume} download>
-          Resume
-        </a>
       </div>
     </div>
   );

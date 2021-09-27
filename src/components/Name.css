@@ -6,14 +6,14 @@
     rgba(68, 147, 153, 1) 100%
   );
   position: absolute;
-  height: 400px;
+  height: 150px;
   width: 200vw;
   left: -100vw;
   z-index: -1;
 }
 
 .Name {
-  height: 400px;
+  height: 150px;
   width: 100%;
   box-sizing: border-box;
   padding: 0 20px;
@@ -22,6 +22,7 @@
 }
 
 #name {
+  padding-top: 20px;
   font-size: 33px;
   color: #449399;
 }
@@ -29,51 +30,4 @@
 #title {
   font-size: 20px;
   color: #ffffff;
-}
-
-#profilePicture {
-  height: 400px;
-}
-
-@media screen and (min-width: 320px) and (max-width: 670px) {
-  #profilePicture {
-    float: right;
-  }
-}
-
-@media screen and (min-width: 670px) {
-  .Name::before {
-    height: 450px;
-  }
-
-  .Name {
-    height: 450px;
-    display: grid;
-    max-width: 100%;
-    min-width: 0;
-    grid-template-columns: auto 1fr;
-    grid-template-rows: 50px 1fr;
-    grid-auto-flow: column;
-    grid-template-areas:
-      '. navigation'
-      'name .'
-      'title .'
-      '. picture';
-  }
-
-  #navigation {
-    grid-area: navigation;
-  }
-
-  #name {
-    grid-area: name;
-  }
-
-  #title {
-    grid-area: title;
-  }
-
-  #profilePicture {
-    grid-area: picture;
-  }
 }

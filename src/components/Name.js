@@ -1,6 +1,5 @@
 import './Name.css';
 import Navigation from './Navigation';
-import profilePicture from '../assets/profilePicture.png';
 
 function Name() {
   return (
@@ -8,7 +7,6 @@ function Name() {
       <Navigation />
       <div id="name">Cameron St. Amant</div>
       <div id="title">Full Stack Software Engineer</div>
-      <img id="profilePicture" src={profilePicture} alt="Profile" />
     </div>
   );
 }
