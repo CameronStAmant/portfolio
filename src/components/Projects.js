@@ -1,6 +1,6 @@
 import './Projects.css';
 import blogScreenshot from '../assets/blogScreenshot.png';
-import battleshipScreenshot from '../assets/battleship-screenshot.png';
+import bbsiJobs from '../assets/bbsiJobs.png';
 import membersOnlyScreenshot from '../assets/members-only-screenshot.png';
 
 function Projects() {
@@ -16,6 +16,30 @@ function Projects() {
       </h3>
       <div id="projectGallery">
         <div className="listProject">
+          <h2 className="projectTitle" id="BBSIJobs">
+            BBSIJobs.com
+          </h2>
+          <img
+            src={bbsiJobs}
+            className="projectImage"
+            alt="Screenshot of BBSIJobs.com"
+          />
+          <p className="projectSummary">
+            Freelanced a job board web app from start to ship while
+            collaborating with a UX designer. I have increased my knowledge of
+            React, cross-browser compatibility, and external packages.
+          </p>
+          <div className="projectButtons">
+            <a
+              href="https://bbsijobs.com"
+              target="_blank"
+              rel="noreferrer noopener"
+            >
+              <button className="demoLink">See it live!</button>
+            </a>
+          </div>
+        </div>
+        <div className="listProject listProjectFlip spacer">
           <h2 className="projectTitle" id="blogTitle">
             Blog
           </h2>
@@ -47,7 +71,7 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject listProjectFlip spacer">
+        <div className="listProject spacer">
           <h2 className="projectTitle" id="members-only-message-board">
             Members Only Message Board
           </h2>
@@ -73,37 +97,6 @@ function Projects() {
             </a>
             <a
               href="https://secure-oasis-30404.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="demoLink">See it live!</button>
-            </a>
-          </div>
-        </div>
-        <div className="listProject spacer">
-          <h2 className="projectTitle" id="battleship">
-            Battleship
-          </h2>
-          <img
-            src={battleshipScreenshot}
-            className="projectImage"
-            alt="Screenshot of battleship"
-          />
-          <p className="projectSummary">
-            This game has a responsive design that changes to match the users
-            device size. At the heart it all is the Test Driven Development
-            concept, which was used throughout its creation.
-          </p>
-          <div className="projectButtons">
-            <a
-              href="https://github.com/CameronStAmant/battleship"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="githubLink">Review the code</button>
-            </a>
-            <a
-              href="https://cameronstamant.github.io/battleship/"
               target="_blank"
               rel="noreferrer noopener"
             >
