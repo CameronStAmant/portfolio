@@ -26,8 +26,10 @@ function Projects() {
           />
           <p className="projectSummary">
             Freelanced a job board web app from start to ship while
-            collaborating with a UX designer. I have increased my knowledge of
-            React, cross-browser compatibility, and external packages.
+            collaborating with a UX designer. Working with a designer allowed me
+            to build more intricate components that flowed nicer together. I
+            increased my knowledge of React, cross-browser compatibility, CSS,
+            and external packages.
           </p>
           <div className="projectButtons">
             <a
