@@ -1,8 +1,6 @@
 import './Projects.css';
 import blogScreenshot from '../assets/blogScreenshot.png';
 import bbsiJobs from '../assets/bbsiJobs.png';
-import membersOnlyScreenshot from '../assets/members-only-screenshot.png';
-
 function Projects() {
   return (
     <div className="projects" id="projects">
