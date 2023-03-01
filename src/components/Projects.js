@@ -22,7 +22,7 @@ function Projects() {
             alt="Screenshot of BBSIJobs.com"
           />
           <p className="projectSummary">
-            Freelanced a job board web app from start to ship while
+            Freelanced a job board web app from start to finish while
             collaborating with a UX designer. Working with a designer allowed me
             to build more intricate components that flowed nicer together. I
             increased my knowledge of React, cross-browser compatibility, CSS,

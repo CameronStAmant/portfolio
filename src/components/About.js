@@ -12,11 +12,7 @@ function About() {
         </a>
       </h3>
       <div id="aboutContent">
-        I'm Cameron, a Software Engineer who, after over a year of study, is
-        ready to contribute to the world. I have always had an interest in
-        technology, but it wasn't until I discovered programming that I found my
-        passion. Going from nothing to full stack knowledge has been an exciting
-        journey, one that is only just beginning.
+        I am currently working as a junior front-end software engineer, with a focus on React and Typescript. This role is a culmination of over a year and a half of self-taught study.
       </div>
     </div>
   );
