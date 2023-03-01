@@ -61,6 +61,7 @@
 }
 
 .githubLink {
+  cursor: pointer;
   color: #ffffff;
   background-color: #449399;
   height: 43px;
@@ -71,6 +72,7 @@
 }
 
 .demoLink {
+  cursor: pointer;
   color: #449399;
   background-color: transparent;
   height: 43px;
