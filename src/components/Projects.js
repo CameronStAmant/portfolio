@@ -73,39 +73,6 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject spacer">
-          <h2 className="projectTitle" id="members-only-message-board">
-            Members Only Message Board
-          </h2>
-          <img
-            src={membersOnlyScreenshot}
-            className="projectImage"
-            id="projectImageFlip"
-            alt="Screenshot of members only message board"
-          />
-          <p className="projectSummary">
-            A full stack message board with multiple user roles, complete with
-            conditional rendering to only allow users to see the entire message
-            if they are logged in. Passwords are encrypted with bcryptjs and
-            user input is sanitized and validated using express-validator.
-          </p>
-          <div className="projectButtons">
-            <a
-              href="https://github.com/CameronStAmant/members-only-node"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="githubLink">Review the code</button>
-            </a>
-            <a
-              href="https://secure-oasis-30404.herokuapp.com/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="demoLink">See it live!</button>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
