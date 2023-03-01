@@ -1,5 +1,4 @@
 import './Projects.css';
-import blogScreenshot from '../assets/blogScreenshot.png';
 import bbsiJobs from '../assets/bbsiJobs.png';
 function Projects() {
   return (
