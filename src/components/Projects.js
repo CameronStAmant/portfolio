@@ -39,38 +39,6 @@ function Projects() {
             </a>
           </div>
         </div>
-        <div className="listProject listProjectFlip spacer">
-          <h2 className="projectTitle" id="blogTitle">
-            Blog
-          </h2>
-          <img
-            src={blogScreenshot}
-            className="projectImage"
-            alt="Screenshot of blog"
-          />
-          <p className="projectSummary">
-            A fully featured blog that allows posts, comments, as well as
-            moderation from admins. The backend was built with APIs that deliver
-            content to the two React frontends. Even further behind the scenes
-            we have MongoDB, which houses all of the user and content data.
-          </p>
-          <div className="projectButtons" id="blogButtons">
-            <a
-              href="https://github.com/CameronStAmant/blog-api-client"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="githubLink">Review the code</button>
-            </a>
-            <a
-              href="https://cameronstamant.github.io/blog-api-client/#/"
-              target="_blank"
-              rel="noreferrer noopener"
-            >
-              <button className="demoLink">See it live!</button>
-            </a>
-          </div>
-        </div>
       </div>
     </div>
   );
