@@ -17,6 +17,10 @@ function Skills() {
         <div>
           <div className="skillTitle">Frontend</div>
           <div className="skillItem">
+          <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
+              alt="TypeScript logo"
+            />            
             <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg"
               alt="JavaScript logo"
