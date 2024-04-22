@@ -42,11 +42,6 @@ function Skills() {
               alt="Sass logo"
             />
             <img id="puglogo" src={pugjs} alt="Pugjs logo" />
-            <img
-              id="t"
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg"
-              alt="Tailwind CSS logo"
-            />
           </div>
         </div>
         <div>
