@@ -15,9 +15,12 @@ function Skills() {
       </h3>
       <div id="skillList">
         <div>
-          <div className="skillTitle">Frontend</div>
           <div className="skillItem">
-          <img
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
+              alt="React logo"
+            />
+            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg"
               alt="TypeScript logo"
             />            
@@ -26,71 +29,28 @@ function Skills() {
               alt="JavaScript logo"
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg"
-              alt="React logo"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-plain.svg"
-              alt="HTML5 logo"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-plain.svg"
-              alt="CSS3 logo"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/sass/sass-original.svg"
-              alt="Sass logo"
-            />
-            <img id="puglogo" src={pugjs} alt="Pugjs logo" />
-          </div>
-        </div>
-        <div>
-          <div className="skillTitle">Backend</div>
-          <div className="skillItem">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg"
-              alt="Nodejs logo"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/express/express-original.svg"
-              alt="Express logo"
-            />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg"
-              alt="MongdoDB logo"
-            />
-
-            <img src={mongoose} alt="Mongoose ODM logo" />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/firebase/firebase-plain.svg"
-              alt="Firebase logo"
-            />
-          </div>
-        </div>
-        <div>
-          <div className="skillTitle">Misc</div>
-          <div className="skillItem">
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/webpack/webpack-original.svg"
-              alt="Webpack logo"
-            />
-            <img
               src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/jest/jest-plain.svg"
               alt="Jest logo"
             />
-            <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg"
-              alt="Git logo"
+            <img 
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/redux/redux-original.svg" 
+              alt='Redux logo'
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/npm/npm-original-wordmark.svg"
-              alt="npm logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/sass/sass-original.svg"
+              alt="Sass logo"
             />
             <img
-              src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-              alt="GitHub logo"
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/css3/css3-plain.svg"
+              alt="CSS logo"
+            />
+            <img
+              src="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/icons/storybook/storybook-plain.svg"
+              alt="Storybook logo"
             />
           </div>
+        </div>
+        <div>
         </div>
       </div>
     </div>

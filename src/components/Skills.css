@@ -44,10 +44,6 @@
   display: block;
 }
 
-.skillTitle {
-  margin: 0 0 5px 0;
-}
-
 #skillList {
   display: grid;
   gap: 40px;
