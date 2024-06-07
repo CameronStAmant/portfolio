@@ -13,7 +13,7 @@ function Contact() {
         </a>
       </h3>
       <div>
-        <a href="mailto:cameronstamant@protonmail.com?subject=I found your portfolio and I like what I see">
+        <a href="mailto:contact@cameronstamant.com?subject=I found your portfolio and I like what I see">
           Email
         </a>
       </div>

@@ -12,7 +12,7 @@ function About() {
         </a>
       </h3>
       <div id="aboutContent">
-        I am currently working as a junior front-end software engineer, with a focus on React and Typescript. This role is a culmination of over a year and a half of self-taught study.
+        Currently, I'm employed as a front end web developer, specializing in React and Typescript.
       </div>
     </div>
   );

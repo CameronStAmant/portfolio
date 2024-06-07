@@ -6,7 +6,7 @@ function Name() {
     <div className="Name">
       <Navigation />
       <div id="name">Cameron St. Amant</div>
-      <div id="title">Front-end Software Engineer</div>
+      <div id="title">Front End Web Developer</div>
     </div>
   );
 }

@@ -22,11 +22,7 @@ function Projects() {
             alt="Screenshot of BBSIJobs.com"
           />
           <p className="projectSummary">
-            Freelanced a job board web app from start to finish, while
-            collaborating with a UX designer. Working with a designer allowed me
-            to build more intricate components that flowed nicer together. I
-            increased my knowledge of React, cross-browser compatibility, CSS,
-            and external packages.
+            Independently developed a job board web application from inception to completion, collaborating closely with a UX designer throughout the process. This partnership enabled the creation of more intricate and cohesive components. Through this project, I enhanced my expertise in React, cross-browser compatibility, CSS, and integrating external packages.
           </p>
           <div className="projectButtons">
             <a
